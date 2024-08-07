@@ -2,6 +2,12 @@
 
 O InEvent Cards é um aplicativo que permite obter cartas de poker, além de reembaralha-las.
 
+<p align="center">
+     <img alt="png" src="./Github Images/screenshot1.png" height="350"/>
+     <img alt="png" src="./Github Images/screenshot2.png" height="350"/>
+     <img alt="png" src="./Github Images/screenshot3.png" height="350"/>
+</p>
+
 # Tecnologias Principais
 * Linguagem: Swift
 * Framework: UIKit com ViewCode
