@@ -20,5 +20,5 @@ O InEvent Cards é um aplicativo que permite obter cartas de poker, além de ree
 * Você pode baixar o projeto ou pode utilizar o arquivo executável .ipa.
 
 # Instalável do projeto
-* Link: [InEvent Cards](wesley-inevent-ios-test.ipa)
+* Link: [InEvent Cards](https://github.com/RickyMarq/InEvent-Cards/blob/main/InEvent-Cards.ipa)
 * Para baixar o instalável, basta clicar no link acima e depois clicar em "View raw" ou no ícone de download à direita da tela.
