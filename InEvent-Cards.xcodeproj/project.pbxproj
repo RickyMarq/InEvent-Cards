@@ -9,21 +9,64 @@
 /* Begin PBXBuildFile section */
 		BE2A771C2C62FF8A00452505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A771B2C62FF8A00452505 /* AppDelegate.swift */; };
 		BE2A771E2C62FF8A00452505 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A771D2C62FF8A00452505 /* SceneDelegate.swift */; };
-		BE2A77202C62FF8A00452505 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A771F2C62FF8A00452505 /* ViewController.swift */; };
-		BE2A77232C62FF8A00452505 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE2A77222C62FF8A00452505 /* Base */; };
 		BE2A77252C62FF8D00452505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2A77242C62FF8D00452505 /* Assets.xcassets */; };
 		BE2A77282C62FF8D00452505 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BE2A77272C62FF8D00452505 /* Base */; };
+		BE2A77322C63007F00452505 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77312C63007F00452505 /* API.swift */; };
+		BE2A77342C63009800452505 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77332C63009800452505 /* Repository.swift */; };
+		BE2A77362C6300AA00452505 /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77352C6300AA00452505 /* APIPath.swift */; };
+		BE2A77382C6300B300452505 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77372C6300B300452505 /* Alerts.swift */; };
+		BE2A773B2C6300D700452505 /* ViewCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A773A2C6300D700452505 /* ViewCodeManager.swift */; };
+		BE2A773D2C6300E500452505 /* ConfigureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A773C2C6300E500452505 /* ConfigureController.swift */; };
+		BE2A77402C63010000452505 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A773F2C63010000452505 /* UIButton+Extension.swift */; };
+		BE2A77482C63020600452505 /* LaunchAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77472C63020600452505 /* LaunchAnimationView.swift */; };
+		BE2A774A2C63022300452505 /* LaunchAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77492C63022300452505 /* LaunchAnimationController.swift */; };
+		BE2A774E2C6302B000452505 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A774D2C6302B000452505 /* Cards.swift */; };
+		BE2A77512C6302CC00452505 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77502C6302CC00452505 /* CardViewModel.swift */; };
+		BE2A77542C63033B00452505 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77532C63033B00452505 /* CardService.swift */; };
+		BE2A77572C63035900452505 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77562C63035900452505 /* CardView.swift */; };
+		BE2A775A2C63037600452505 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77592C63037600452505 /* CardController.swift */; };
+		BE2A775E2C63039500452505 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A775D2C63039500452505 /* OnboardingModel.swift */; };
+		BE2A77612C6303B600452505 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77602C6303B600452505 /* OnboardingViewModel.swift */; };
+		BE2A77642C6303E800452505 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77632C6303E800452505 /* OnboardingView.swift */; };
+		BE2A77672C63044300452505 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77662C63044300452505 /* OnboardingController.swift */; };
+		BE2A776A2C63048300452505 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A77692C63048300452505 /* OnboardingCell.swift */; };
+		BE2A776D2C63049D00452505 /* OnboardingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2A776C2C63049D00452505 /* OnboardingCellViewModel.swift */; };
+		BE2A77702C6304FE00452505 /* lauchscreen.json in Resources */ = {isa = PBXBuildFile; fileRef = BE2A776F2C6304FE00452505 /* lauchscreen.json */; };
+		BE2A77732C6305C200452505 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A77722C6305C200452505 /* Alamofire */; };
+		BE2A77762C6305CF00452505 /* ServiceKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A77752C6305CF00452505 /* ServiceKit */; };
+		BE2A77792C6305DE00452505 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A77782C6305DE00452505 /* Lottie */; };
+		BE2A777C2C6305EB00452505 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A777B2C6305EB00452505 /* Kingfisher */; };
+		BE2A777F2C6305F700452505 /* StackViewKit in Frameworks */ = {isa = PBXBuildFile; productRef = BE2A777E2C6305F700452505 /* StackViewKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE2A77182C62FF8A00452505 /* InEvent-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InEvent-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2A771B2C62FF8A00452505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE2A771D2C62FF8A00452505 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE2A771F2C62FF8A00452505 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE2A77222C62FF8A00452505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2A77242C62FF8D00452505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2A77272C62FF8D00452505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2A77292C62FF8D00452505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2A77312C63007F00452505 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BE2A77332C63009800452505 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		BE2A77352C6300AA00452505 /* APIPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		BE2A77372C6300B300452505 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		BE2A773A2C6300D700452505 /* ViewCodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeManager.swift; sourceTree = "<group>"; };
+		BE2A773C2C6300E500452505 /* ConfigureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureController.swift; sourceTree = "<group>"; };
+		BE2A773F2C63010000452505 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		BE2A77472C63020600452505 /* LaunchAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationView.swift; sourceTree = "<group>"; };
+		BE2A77492C63022300452505 /* LaunchAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAnimationController.swift; sourceTree = "<group>"; };
+		BE2A774D2C6302B000452505 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		BE2A77502C6302CC00452505 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		BE2A77532C63033B00452505 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		BE2A77562C63035900452505 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BE2A77592C63037600452505 /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		BE2A775D2C63039500452505 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		BE2A77602C6303B600452505 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		BE2A77632C6303E800452505 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		BE2A77662C63044300452505 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		BE2A77692C63048300452505 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		BE2A776C2C63049D00452505 /* OnboardingCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCellViewModel.swift; sourceTree = "<group>"; };
+		BE2A776F2C6304FE00452505 /* lauchscreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lauchscreen.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2A777C2C6305EB00452505 /* Kingfisher in Frameworks */,
+				BE2A77732C6305C200452505 /* Alamofire in Frameworks */,
+				BE2A777F2C6305F700452505 /* StackViewKit in Frameworks */,
+				BE2A77762C6305CF00452505 /* ServiceKit in Frameworks */,
+				BE2A77792C6305DE00452505 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +104,226 @@
 		BE2A771A2C62FF8A00452505 /* InEvent-Cards */ = {
 			isa = PBXGroup;
 			children = (
-				BE2A771B2C62FF8A00452505 /* AppDelegate.swift */,
-				BE2A771D2C62FF8A00452505 /* SceneDelegate.swift */,
-				BE2A771F2C62FF8A00452505 /* ViewController.swift */,
-				BE2A77212C62FF8A00452505 /* Main.storyboard */,
-				BE2A77242C62FF8D00452505 /* Assets.xcassets */,
-				BE2A77262C62FF8D00452505 /* LaunchScreen.storyboard */,
+				BE2A77302C63007500452505 /* API */,
+				BE2A77392C6300C300452505 /* Utils */,
+				BE2A772F2C63006900452505 /* App */,
+				BE2A77422C63018700452505 /* Resources */,
+				BE2A77412C63016800452505 /* Assets */,
+				BE2A77432C6301AF00452505 /* Feature */,
 				BE2A77292C62FF8D00452505 /* Info.plist */,
 			);
 			path = "InEvent-Cards";
+			sourceTree = "<group>";
+		};
+		BE2A772F2C63006900452505 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A771B2C62FF8A00452505 /* AppDelegate.swift */,
+				BE2A771D2C62FF8A00452505 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BE2A77302C63007500452505 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77312C63007F00452505 /* API.swift */,
+				BE2A77332C63009800452505 /* Repository.swift */,
+				BE2A77352C6300AA00452505 /* APIPath.swift */,
+				BE2A77372C6300B300452505 /* Alerts.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BE2A77392C6300C300452505 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A773E2C6300F500452505 /* Extension */,
+				BE2A773A2C6300D700452505 /* ViewCodeManager.swift */,
+				BE2A773C2C6300E500452505 /* ConfigureController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BE2A773E2C6300F500452505 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A773F2C63010000452505 /* UIButton+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BE2A77412C63016800452505 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A776E2C6304F500452505 /* Animations */,
+				BE2A77242C62FF8D00452505 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		BE2A77422C63018700452505 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77262C62FF8D00452505 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE2A77432C6301AF00452505 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A775B2C63038200452505 /* Onboarding */,
+				BE2A774B2C63023C00452505 /* Card */,
+				BE2A77442C6301E700452505 /* LaunchAnimation */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		BE2A77442C6301E700452505 /* LaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77452C6301EE00452505 /* View */,
+				BE2A77462C6301F100452505 /* Controller */,
+			);
+			path = LaunchAnimation;
+			sourceTree = "<group>";
+		};
+		BE2A77452C6301EE00452505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77472C63020600452505 /* LaunchAnimationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE2A77462C6301F100452505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77492C63022300452505 /* LaunchAnimationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE2A774B2C63023C00452505 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A774C2C6302A100452505 /* Model */,
+				BE2A774F2C6302B900452505 /* ViewModel */,
+				BE2A77522C6302F300452505 /* Service */,
+				BE2A77552C63034E00452505 /* View */,
+				BE2A77582C63036E00452505 /* Controller */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		BE2A774C2C6302A100452505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A774D2C6302B000452505 /* Cards.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE2A774F2C6302B900452505 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77502C6302CC00452505 /* CardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE2A77522C6302F300452505 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77532C63033B00452505 /* CardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BE2A77552C63034E00452505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77562C63035900452505 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE2A77582C63036E00452505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77592C63037600452505 /* CardController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE2A775B2C63038200452505 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A775C2C63038B00452505 /* Model */,
+				BE2A77682C63047800452505 /* Cell */,
+				BE2A775F2C6303A400452505 /* ViewModel */,
+				BE2A77622C6303E200452505 /* View */,
+				BE2A77652C63043900452505 /* Controller */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		BE2A775C2C63038B00452505 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A775D2C63039500452505 /* OnboardingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE2A775F2C6303A400452505 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77602C6303B600452505 /* OnboardingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE2A77622C6303E200452505 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77632C6303E800452505 /* OnboardingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE2A77652C63043900452505 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A77662C63044300452505 /* OnboardingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE2A77682C63047800452505 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A776B2C63048A00452505 /* ViewModel */,
+				BE2A77692C63048300452505 /* OnboardingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BE2A776B2C63048A00452505 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A776C2C63049D00452505 /* OnboardingCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BE2A776E2C6304F500452505 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A776F2C6304FE00452505 /* lauchscreen.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +342,13 @@
 			dependencies = (
 			);
 			name = "InEvent-Cards";
+			packageProductDependencies = (
+				BE2A77722C6305C200452505 /* Alamofire */,
+				BE2A77752C6305CF00452505 /* ServiceKit */,
+				BE2A77782C6305DE00452505 /* Lottie */,
+				BE2A777B2C6305EB00452505 /* Kingfisher */,
+				BE2A777E2C6305F700452505 /* StackViewKit */,
+			);
 			productName = "InEvent-Cards";
 			productReference = BE2A77182C62FF8A00452505 /* InEvent-Cards.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +377,13 @@
 				Base,
 			);
 			mainGroup = BE2A770F2C62FF8A00452505;
+			packageReferences = (
+				BE2A77712C6305C200452505 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BE2A77742C6305CF00452505 /* XCRemoteSwiftPackageReference "ServiceKit" */,
+				BE2A77772C6305DE00452505 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				BE2A777A2C6305EB00452505 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				BE2A777D2C6305F600452505 /* XCRemoteSwiftPackageReference "StackViewKit" */,
+			);
 			productRefGroup = BE2A77192C62FF8A00452505 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +400,7 @@
 			files = (
 				BE2A77252C62FF8D00452505 /* Assets.xcassets in Resources */,
 				BE2A77282C62FF8D00452505 /* Base in Resources */,
-				BE2A77232C62FF8A00452505 /* Base in Resources */,
+				BE2A77702C6304FE00452505 /* lauchscreen.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +411,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2A77202C62FF8A00452505 /* ViewController.swift in Sources */,
+				BE2A773B2C6300D700452505 /* ViewCodeManager.swift in Sources */,
+				BE2A77542C63033B00452505 /* CardService.swift in Sources */,
+				BE2A77362C6300AA00452505 /* APIPath.swift in Sources */,
+				BE2A774A2C63022300452505 /* LaunchAnimationController.swift in Sources */,
+				BE2A77572C63035900452505 /* CardView.swift in Sources */,
+				BE2A774E2C6302B000452505 /* Cards.swift in Sources */,
+				BE2A77402C63010000452505 /* UIButton+Extension.swift in Sources */,
+				BE2A773D2C6300E500452505 /* ConfigureController.swift in Sources */,
+				BE2A776A2C63048300452505 /* OnboardingCell.swift in Sources */,
+				BE2A77672C63044300452505 /* OnboardingController.swift in Sources */,
+				BE2A77482C63020600452505 /* LaunchAnimationView.swift in Sources */,
+				BE2A776D2C63049D00452505 /* OnboardingCellViewModel.swift in Sources */,
 				BE2A771C2C62FF8A00452505 /* AppDelegate.swift in Sources */,
+				BE2A77512C6302CC00452505 /* CardViewModel.swift in Sources */,
+				BE2A77642C6303E800452505 /* OnboardingView.swift in Sources */,
+				BE2A77342C63009800452505 /* Repository.swift in Sources */,
+				BE2A77322C63007F00452505 /* API.swift in Sources */,
+				BE2A77612C6303B600452505 /* OnboardingViewModel.swift in Sources */,
+				BE2A775A2C63037600452505 /* CardController.swift in Sources */,
+				BE2A77382C6300B300452505 /* Alerts.swift in Sources */,
+				BE2A775E2C63039500452505 /* OnboardingModel.swift in Sources */,
 				BE2A771E2C62FF8A00452505 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +439,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE2A77212C62FF8A00452505 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE2A77222C62FF8A00452505 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE2A77262C62FF8D00452505 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +581,8 @@
 				INFOPLIST_FILE = "InEvent-Cards/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +590,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "henriquemarques.com.InEvent-Cards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +612,8 @@
 				INFOPLIST_FILE = "InEvent-Cards/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +621,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "henriquemarques.com.InEvent-Cards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +653,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE2A77712C6305C200452505 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		BE2A77742C6305CF00452505 /* XCRemoteSwiftPackageReference "ServiceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wesleytyber/ServiceKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		BE2A77772C6305DE00452505 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		BE2A777A2C6305EB00452505 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		BE2A777D2C6305F600452505 /* XCRemoteSwiftPackageReference "StackViewKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wesleytyber/StackViewKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE2A77722C6305C200452505 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A77712C6305C200452505 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		BE2A77752C6305CF00452505 /* ServiceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A77742C6305CF00452505 /* XCRemoteSwiftPackageReference "ServiceKit" */;
+			productName = ServiceKit;
+		};
+		BE2A77782C6305DE00452505 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A77772C6305DE00452505 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		BE2A777B2C6305EB00452505 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A777A2C6305EB00452505 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		BE2A777E2C6305F700452505 /* StackViewKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE2A777D2C6305F600452505 /* XCRemoteSwiftPackageReference "StackViewKit" */;
+			productName = StackViewKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BE2A77102C62FF8A00452505 /* Project object */;
 }

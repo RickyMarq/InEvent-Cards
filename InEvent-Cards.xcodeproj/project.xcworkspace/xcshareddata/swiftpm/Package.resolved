@@ -1,0 +1,51 @@
+{
+  "originHash" : "c9afe8e8835ff8770bc527f5bd51efb227ded1d091b8a5be11260776f09d42a7",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "2ef543ee21d63734e1c004ad6c870255e8716c50",
+        "version" : "7.12.0"
+      }
+    },
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "fe4c6fe3a0aa66cdeb51d549623c82ca9704b9a5",
+        "version" : "4.5.0"
+      }
+    },
+    {
+      "identity" : "servicekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wesleytyber/ServiceKit",
+      "state" : {
+        "revision" : "5dce853914b7167720f90bdd0ff6b0e13ee9d18f",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "stackviewkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wesleytyber/StackViewKit",
+      "state" : {
+        "revision" : "0885cccabc1807a6bbac1cbe0692f61dce190fba",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}
